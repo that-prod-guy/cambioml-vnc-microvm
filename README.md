@@ -97,6 +97,9 @@ Open in your browser:
 
 http://34.61.66.163
 
+![terminal](https://github.com/user-attachments/assets/7e2a5318-0eb6-4bcb-9dc0-ad8c6ca42312)
+
+
 This will load a Linux desktop environment via noVNC in your browser.
 
 ## 🛠️ Components Overview
