@@ -57,6 +57,9 @@ This will:
 - Create a GKE cluster
 - Configure networking
 
+![image](https://github.com/user-attachments/assets/0e1cac14-98ab-4d3a-a440-7a7f3ddf5119)
+
+
 ### 2️⃣ Connect kubectl to GKE
 After successful apply, run:
 
