@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microvm
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: microvm
+  template:
+    metadata:
+      labels:
+        app: microvm
+    spec:
+      containers:
+        - name: microvm
+          image: gcr.io/cambioml-vnc-microvm/vnc-microvm:latest
+          ports:
+            - containerPort: 6080
+          
